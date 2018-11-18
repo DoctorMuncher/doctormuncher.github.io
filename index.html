@@ -47,10 +47,9 @@
     <div id="clickme">Click Me</div>
 
     <script>
-      $("#header")
-        .html("Welcome, friend!");
-
-      $(".paragraph").css("font-weight", "bold");
+      function runThisWhenClicked() {
+        alert( "HEHE THAT TICKLES!" );
+      }
       
       // add click handler for button
       $("clickme").click(runThisWhenClicked);
